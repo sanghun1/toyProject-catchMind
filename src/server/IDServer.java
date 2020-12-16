@@ -1,4 +1,4 @@
-// 12월 15일 주석, 변수 수정본.
+// 최종본
 package server;
 
 import java.io.BufferedReader;
@@ -293,8 +293,8 @@ public class IDServer {
 			if (parsReaderMsg[0].equals("CHAT") && parsReaderMsg.length > 1) {
 				for (int i = 0; i < vcClient.size(); i++) {
 					vcClient.get(i).writer.println("CHAT&[" + clientId + "]: " + parsReaderMsg[1]);
-					protocolANSWER(parsReaderMsg);
 				}
+				protocolANSWER(parsReaderMsg);
 			} else if (parsReaderMsg[0].equals("CHAT")) {
 				for (int i = 0; i < vcClient.size(); i++) {
 					vcClient.get(i).writer.println("CHAT&[" + clientId + "] ");

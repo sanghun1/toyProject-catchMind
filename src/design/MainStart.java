@@ -265,7 +265,7 @@ public class MainStart extends JFrame {
 		btnStart = new JButton(icGameStart); // plMain
 		btnId = new JButton(icGameStart); // plMain
 		btnSkip = new JButton("넘기기"); // plTop
-		btnReady = new JButton("준비 완료"); // plEast
+		btnReady = new JButton("준비"); // plEast
 		btnExit = new JButton("나가기"); // plEast
 
 		btnBlackDrawPen = new JButton(iconBlackPen);
@@ -632,21 +632,7 @@ public class MainStart extends JFrame {
 					}
 				}
 			});
-//		
-//		if (drawPPAP == false) {
-//			System.out.println("ppap false 실행 됨");
-//			drawLabel.addMouseMotionListener(new MouseMotionListener() {			
-//				@Override
-//				public void mouseMoved(MouseEvent e) {		
-//				}
-//				
-//				@Override
-//				public void mouseDragged(MouseEvent e) {
-//				
-//				}
-//			});
-//		}
-//		
+	
 		// 검은색 펜 이벤트
 		btnBlackDrawPen.addActionListener(new ActionListener() {
 			
