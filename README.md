@@ -79,6 +79,34 @@
 ![상어정답](https://user-images.githubusercontent.com/39526249/102375801-4534c600-4006-11eb-8433-63f8f7b3804c.gif)
 
  
+ 
+### 통신프로토콜
+
+----------------------------------------
+
+ ``` java
+package protocol;
+
+public interface protocol {
+
+	String READY = "READY";
+	String SERVER = "SERVER";
+	String CHAT = "CHAT";
+	String ID = "ID";
+	String IDLIST = "IDLIST";
+	String START = "START";
+	String END = "END";
+	String TURN = "TURN";
+	String NOTTURN = "NOTTURN";
+	String SKIP = "SKIP";
+	String EXIT = "EXIT";
+	String ANSWER = "ANSWER";
+	String DRAW = "DRAW";
+	String COLOR = "COLOR";
+ 
+ }
+ ```
+ 
 ### 게임 시연 장면
 ----------------------------------------
 
