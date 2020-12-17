@@ -80,3 +80,7 @@
 
  
 ### 게임 시연 장면
+----------------------------------------
+
+[![초기화면](https://user-images.githubusercontent.com/39526249/102422691-ac746980-404a-11eb-84c7-3e2a5794eb88.png)](https://www.youtube.com/watch?v=OVq4EvkwDhk)
+ 이미지클릭
